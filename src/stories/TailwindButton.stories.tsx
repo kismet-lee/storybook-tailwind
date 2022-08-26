@@ -2,78 +2,114 @@ import { button } from '../classnames';
 import '../index.css';
 
 export default {
-  title: 'Tailwind/Button',
+  title: 'Tailwind/Buttons',
 }
 
 export const Primary = () => {
   return (
-    <div>
-      <button className={button.primary}>some action</button>
+    <>
+    <div className="flex grid-cols-3 items-center">
+    <div className="mr-8">
+      <button className={button.primary}>Primary button</button>
     </div>
+    <div className="mr-8">
+      <button className={button.secondary}>Secondary button</button>
+    </div>
+    <div>
+      <button className={button.tertiary}>Tertiary button</button>
+    </div>
+    </div>
+    </>
   )
 }
 
-export const PrimaryDisabled = () => {
+export const Disabled = () => {
   return (
-    <div>
-      <button className={button.primary} disabled>some action</button>
+    <>
+    <div className="flex grid-cols-3 items-center">
+    <div className="mr-8">
+      <button className={button.primary} disabled>Primary button</button>
     </div>
+    <div className="mr-8">
+      <button className={button.secondary} disabled>Secondary button</button>
+    </div>
+    <div>
+      <button className={button.tertiary} disabled>Tertiary button</button>
+    </div>
+    </div>
+    </>
   )
 }
 
-export const PrimaryNeutral = () => {
+export const Neutral = () => {
   return (
-    <div>
-      <button className={button.ntrl}>some action</button>
+    <>
+    <div className="flex grid-cols-3 items-center">
+    <div className="mr-8">
+      <button className={button.ntrl}>Primary button</button>
     </div>
+    <div className="mr-8">
+      <button className={button.secondaryntrl}>Secondary button</button>
+    </div>
+    <div>
+      <button className={button.tertiaryntrl}>Tertiary button</button>
+    </div>
+    </div>
+    </>
   )
 }
 
-export const PrimarySmall = () => {
+export const Small = () => {
   return (
-    <div>
-      <button className={button.small}>some action</button>
+    <>
+    <div className="flex grid-cols-3 items-center">
+    <div className="mr-8">
+      <button className={button.small}>Primary button</button>
     </div>
+    <div className="mr-8">
+      <button className={button.secondarysm}>Secondary button</button>
+    </div>
+    <div>
+      <button className={button.tertiarysm}>Tertiary button</button>
+    </div>
+    </div>
+    </>
   )
 }
 
-export const PrimarySmallDisabled = () => {
+export const SmallDisabled = () => {
   return (
-    <div>
-      <button className={button.small} disabled>some action</button>
+    <>
+    <div className="flex grid-cols-3 items-center">
+    <div className="mr-8">
+      <button className={button.small} disabled>Primary button</button>
     </div>
+    <div className="mr-8">
+      <button className={button.secondarysm} disabled>Secondary button</button>
+    </div>
+    <div>
+      <button className={button.tertiarysm} disabled>Tertiary button</button>
+    </div>
+    </div>
+    </>
   )
 }
 
 
-export const PrimarySmallNeutral = () => {
+export const SmallNeutral = () => {
   return (
-    <div>
-      <button className={button.smntrl}>some action</button>
+    <>
+    <div className="flex grid-cols-3 items-center">
+    <div className="mr-8">
+      <button className={button.smntrl}>Primary button</button>
     </div>
-  )
-}
-
-export const Secondary = () => {
-  return (
-    <div>
-      <button className={button.secondary}>some action</button>
+    <div className="mr-8">
+      <button className={button.secondarysmntrl}>Secondary button</button>
     </div>
-  )
-}
-
-export const SecondaryDisabled = () => {
-  return (
     <div>
-      <button className={button.secondary} disabled>some action</button>
+      <button className={button.tertiaryntrlsm}>Tertiary button</button>
     </div>
-  )
-}
-
-export const SecondaryNeutral = () => {
-  return (
-    <div>
-      <button className={button.secondaryntrl}>some action</button>
     </div>
+    </>
   )
 }
