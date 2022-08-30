@@ -20,5 +20,27 @@ export const tag = {
 }
 
 export const colors = {
+/** make a class for the entire container and individual color styles**/
+container:'px-12 py-12 flex justify-center items-center grid-cols-3 ',
+colorn1:'h-32 w-48 mb-8 rounded-lg bg-white items-center justify-center flex',
+colorn2:'h-32 w-48 mb-8 rounded-lg bg-gray-100 items-center justify-center flex',
+colorn3:'h-32 w-48 mb-8 rounded-lg bg-gray-300 items-center justify-center flex',
+colorn4:'h-32 w-48 mb-8 rounded-lg bg-gray-700 text-white items-center justify-center flex',
+colorn5:'h-32 w-48 mb-8 rounded-lg bg-gray-800 text-white items-center justify-center flex',
+colorn6:'h-32 w-48 mb-8 rounded-lg bg-gray-900 text-white items-center justify-center flex',
+colorp1:'h-32 w-48 mb-8 rounded-lg bg-sky-900 text-white items-center justify-center flex',
+colorp2:'h-32 w-48 mb-8 rounded-lg bg-sky-800 text-white items-center justify-center flex',
+colorp3:'h-32 w-48 mb-8 rounded-lg bg-sky-600 text-white items-center justify-center flex',
+colorp4:'h-32 w-48 mb-8 rounded-lg bg-sky-500 text-white items-center justify-center flex',
+colorp5:'h-32 w-48 mb-8 rounded-lg bg-orange-700 text-white items-center justify-center flex',
+colorp6:'h-32 w-48 mb-8 rounded-lg bg-amber-500 text-white items-center justify-center flex'
+}
 
+export const fontstyle = {
+container:'px-12 py-12 flex gap-2 items-center grid-cols-2 ',
+h1:'text-6xl w-132 px-12',
+h2:'text-5xl w-132 px-12',
+h3:'text-4xl w-132 px-12',
+h4:'text-2xl w-132 px-12',
+h5:'text-xl w-132 px-12'
 }
